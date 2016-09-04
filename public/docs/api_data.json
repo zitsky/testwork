@@ -1,0 +1,222 @@
+[
+  {
+    "type": "get",
+    "url": "/api/profile",
+    "title": "Получение профиля текущего пользователя",
+    "name": "get",
+    "group": "Profile",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIProfileController.php",
+    "groupTitle": "Profile"
+  },
+  {
+    "type": "POST",
+    "url": "/api/profile",
+    "title": "Обновиление профиля текущего пользователя",
+    "name": "update",
+    "group": "Profile",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIProfileController.php",
+    "groupTitle": "Profile"
+  },
+  {
+    "type": "put",
+    "url": "/api/projects/:id/tasks/:id",
+    "title": "Новая задача в проекте",
+    "name": "create",
+    "group": "Project_Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Project_Tasks"
+  },
+  {
+    "type": "get",
+    "url": "/api/projects/:id/tasks/:id",
+    "title": "Карточка задачи",
+    "name": "get",
+    "group": "Project_Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Project_Tasks"
+  },
+  {
+    "type": "get",
+    "url": "/api/projects/:id/tasks",
+    "title": "Список задач текущего пользователя в проекте",
+    "name": "list",
+    "group": "Project_Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Project_Tasks"
+  },
+  {
+    "type": "delete",
+    "url": "/api/projects/:id/tasks/:id",
+    "title": "Удаление задачи",
+    "name": "remove",
+    "group": "Project_Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Project_Tasks"
+  },
+  {
+    "type": "post",
+    "url": "/api/projects/:id/tasks/:id",
+    "title": "Обновление задачи",
+    "name": "update",
+    "group": "Project_Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Project_Tasks"
+  },
+  {
+    "type": "PUT",
+    "url": "/api/projects",
+    "title": "Создание нового проекта",
+    "name": "create",
+    "group": "Projects",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIProjectsController.php",
+    "groupTitle": "Projects"
+  },
+  {
+    "type": "get",
+    "url": "/api/projects/:id",
+    "title": "Получение карточки проекта",
+    "name": "get",
+    "group": "Projects",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIProjectsController.php",
+    "groupTitle": "Projects"
+  },
+  {
+    "type": "get",
+    "url": "/api/projects",
+    "title": "Получения списка достуных проектов",
+    "name": "list",
+    "group": "Projects",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIProjectsController.php",
+    "groupTitle": "Projects"
+  },
+  {
+    "type": "delete",
+    "url": "/api/projects/:id",
+    "title": "Удаление проекта",
+    "name": "remove",
+    "group": "Projects",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIProjectsController.php",
+    "groupTitle": "Projects"
+  },
+  {
+    "type": "post",
+    "url": "/api/projects/:id",
+    "title": "Обновление проекта",
+    "name": "update",
+    "group": "Projects",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIProjectsController.php",
+    "groupTitle": "Projects"
+  },
+  {
+    "type": "put",
+    "url": "/api/statuses",
+    "title": "Сохраенение нового статуса",
+    "name": "create",
+    "group": "Statuses",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIStatusesController.php",
+    "groupTitle": "Statuses"
+  },
+  {
+    "type": "get",
+    "url": "/api/statuses/:id",
+    "title": "Единичный экземпляр статуса",
+    "name": "get",
+    "group": "Statuses",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIStatusesController.php",
+    "groupTitle": "Statuses"
+  },
+  {
+    "type": "get",
+    "url": "/api/statuses",
+    "title": "Список статусов",
+    "name": "list",
+    "group": "Statuses",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIStatusesController.php",
+    "groupTitle": "Statuses"
+  },
+  {
+    "type": "delete",
+    "url": "/api/statuses/:id",
+    "title": "Удаление статуса",
+    "name": "remove",
+    "group": "Statuses",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIStatusesController.php",
+    "groupTitle": "Statuses"
+  },
+  {
+    "type": "post",
+    "url": "/api/statuses/:id",
+    "title": "Обновление статуса",
+    "name": "update",
+    "group": "Statuses",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APIStatusesController.php",
+    "groupTitle": "Statuses"
+  },
+  {
+    "type": "put",
+    "url": "/api/tasks/:id",
+    "title": "Новая задача",
+    "name": "create",
+    "group": "Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Tasks"
+  },
+  {
+    "type": "get",
+    "url": "/api/tasks/:id",
+    "title": "Карточка задачи",
+    "name": "get",
+    "group": "Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Tasks"
+  },
+  {
+    "type": "get",
+    "url": "/api/tasks",
+    "title": "Сисок задач текущего пользователя",
+    "name": "list",
+    "group": "Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Tasks"
+  },
+  {
+    "type": "delete",
+    "url": "/api/tasks/:id",
+    "title": "Удаление задачи",
+    "name": "remove",
+    "group": "Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Tasks"
+  },
+  {
+    "type": "post",
+    "url": "/api/tasks/:id",
+    "title": "Обновление задачи",
+    "name": "update",
+    "group": "Tasks",
+    "version": "0.0.0",
+    "filename": "app/Http/Controllers/APITasksController.php",
+    "groupTitle": "Tasks"
+  }
+]
